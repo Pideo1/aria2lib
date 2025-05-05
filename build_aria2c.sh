@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ## Clone
-git clone https://github.com/devgianlu/aria2-android --recurse-submodules --depth 1
+git clone https://github.com/Pideo1/aria2-android --recurse-submodules --depth 1
 cd aria2-android
 git checkout $@
 
