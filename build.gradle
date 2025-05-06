@@ -54,7 +54,7 @@ dependencies {
 tasks.register('compileAria2') {
     doFirst {
         def basePath = "$buildFile.parent/src/main/jniLibs/"
-        def libs = [basePath + "x86/libaria2c.so"]
+        def libs = [basePath + "x86_64/libaria2c.so"]
 
         if (!project.hasProperty('force')) {
             def ok = true
@@ -84,7 +84,7 @@ tasks.register('compileAria2') {
 
         assert result.exitValue == 0
 
-        for (arch in ["x86"]) {
+        for (arch in ["x86_64"]) {
             copy {
                 from("$buildFile.parent/aria2-android/bin/" + arch + "/bin/aria2c")
                 into(basePath + arch)
