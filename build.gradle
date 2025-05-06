@@ -54,8 +54,7 @@ dependencies {
 tasks.register('compileAria2') {
     doFirst {
         def basePath = "$buildFile.parent/src/main/jniLibs/"
-        def libs = [basePath + "armeabi-v7a/libaria2c.so", basePath + "arm64-v8a/libaria2c.so",
-                    basePath + "x86/libaria2c.so", basePath + "x86_64/libaria2c.so"]
+        def libs = [basePath + "arm64-v8a/libaria2c.so"]
 
         if (!project.hasProperty('force')) {
             def ok = true
