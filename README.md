@@ -1,3 +1,11 @@
+##我真服了
+##
+##build.gradle
+line 92
+```
+ rename "aria2c", "libaria2c.so"
+```
+
 # aria2lib
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/1ea29f828e684589896164e105e1a66b)](https://www.codacy.com/manual/devgianlu/aria2lib?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=devgianlu/aria2lib&amp;utm_campaign=Badge_Grade)
 [![Crowdin](https://badges.crowdin.net/aria2lib/localized.svg)](https://crowdin.com/project/aria2lib)
